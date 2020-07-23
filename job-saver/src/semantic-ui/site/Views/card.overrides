@@ -1,0 +1,4 @@
+ div.map-card > a.ui.raised.card{
+box-shadow:none;
+
+ }

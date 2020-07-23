@@ -9,6 +9,7 @@ import thunk from "redux-thunk";
 import { Provider } from "react-redux";
 import { composeWithDevTools } from "redux-devtools-extension";
 import { reducer } from "./redux/reducers/index";
+import "semantic-ui-less/semantic.less";
 
 const store = createStore(reducer, composeWithDevTools(applyMiddleware(thunk)));
 
