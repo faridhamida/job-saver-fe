@@ -1,0 +1,66 @@
+{
+  "name": "job-saver",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^5.6.4",
+    "@semantic-ui-react/craco-less": "^1.2.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "react": "^16.13.1",
+    "react-beautiful-dnd": "^13.0.0",
+    "react-calendar": "^3.1.0",
+    "react-dom": "^16.13.1",
+    "react-ga": "^3.1.2",
+    "react-google-login": "^5.1.21",
+    "react-map-gl": "^5.2.7",
+    "react-redux": "^7.2.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "semantic-ui-less": "^2.4.1",
+    "semantic-ui-react": "^0.88.2",
+    "store": "^2.0.12",
+    "styled-components": "^5.1.1",
+    "ts-jest": "^26.1.2",
+    "typescript": "~3.7.2"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "jest --watch",
+    "eject": "craco eject",
+    "lint": "tslint --project",
+    "coverage": "CI=true npm run test -- --coverage --watchAll=false || true"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.43",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-router": "^5.1.8",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/semantic-ui": "^2.2.7",
+    "husky": "^4.2.5"
+  }
+}
