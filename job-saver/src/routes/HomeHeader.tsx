@@ -5,30 +5,38 @@ import logo from "../images/job-saver-logo.png";
 import movie from "../images/movie.mp4";
 import Styled from "styled-components";
 
+const VHeader = Styled.div`
+    height:25vh;
+    display:absolute
+    align-items:center;
+    z-index: -1;
+`
+
 const OverLay = Styled.div`
-position: fixed;
-top: 0;
-left: 0;
-width:100%;
-height:100%;
-z-index: -1;
-display: flex;
-justify-content: center;
-align-items: center;
-`;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width:100%;
+    min-height:100%;
+    height:100vh;
+    z-index: -1;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+`
 
 
 function HomeHeader() {
     return (
-        <div>
-            <video width="100%" height="100%" autoPlay loop muted>
-                <source src={movie} type="video/mp4"/>
-                   
-            </video>
-            <Logo src={logo} alt="logo"/>
-                    <Header as="h2" content="Keep your job search organized and all in one place"/>
+        <VHeader>
             <OriginalBackground>
                 <Container textAlign="center">
+                    <OverLay>
+                        <video width="100%" height="100%" autoPlay loop muted>
+                            <source src={movie} type="video/mp4"/>
+                        </video>
+                    <Logo src={logo} alt="logo"/>
+                    <Header as="h2" content="Keep your job search organized and all in one place"/>
                         
                         <StyledButton
                             animated="fade"
@@ -38,10 +46,12 @@ function HomeHeader() {
 
                         <Button.Content visible>Get Started</Button.Content>
                         <Button.Content hidden>Install Extension</Button.Content>
+                        
                     </StyledButton>
+                </OverLay>
             </Container>
         </OriginalBackground>
-    </div>
+    </VHeader>
     );
 }
 
