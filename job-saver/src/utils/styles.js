@@ -3,13 +3,15 @@ import { Button, Grid, Header, Image, Segment, Container } from "semantic-ui-rea
 //home page initial
 
 export const OriginalBackground = Styled.div`
-  background: white
+
 `;
 
 export const Logo = Styled.img`
-  font-size: 4em;
+  font-size: 2em;
   margin-bottom: 0;
   padding-top: 2em;
+  width:600px;
+  height:300px;
 `;
 
 export const StyledButton = Styled(Button)({

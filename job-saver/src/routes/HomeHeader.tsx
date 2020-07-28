@@ -1,30 +1,72 @@
 import React from "react";
 import { OriginalBackground, Logo, StyledButton } from "../utils/styles.js";
-import { Button, Container, Header } from "semantic-ui-react";
+import { Button, Container, Header, HeaderContent } from "semantic-ui-react";
 import logo from "../images/job-saver-logo.png";
-import movie from "../images/movie.mp4";
+import movie from "../images/movie2.mp4";
 import Styled from "styled-components";
 
-const OverLay = Styled.div`
-position: fixed;
-top: 0;
-left: 0;
-width:100%;
-height:100%;
-z-index: -1;
-display: flex;
-justify-content: center;
-align-items: center;
+const That = Styled.div`
+height:100vh;
+display:flex;
+justify-content:center;
+align-content:center;
+align-items:center;
+color:#fff;
+
 `;
 
+const VidWrap = Styled.div`
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100vh;
+overflow:hidden;
 
+`;
+const HeaderOverlay = Styled.div`
+height:100vh;
+position: absolute;
+top:0;
+left:0;
+width:100%;
+z-index:1;
+background:#225470;
+opacity:0.20;
+
+`;
+const HeaderStuff = Styled.div`
+z-index:2;
+font-size:1.5rem;
+display:block;
+padding-bottom:2rem;
+`;
+
+const StyledVideo = Styled.video`
+max-width:100%;
+@media (max-width:1000px){
+max-height:auto;
+
+}
+@media (max-width:760px){
+    height:auto;
+   
+    }
+    @media (max-width:480px){
+        height:auto;
+        }
+`;
 function HomeHeader() {
     return (
-        <div>
-            <video width="100%" height="100%" autoPlay loop muted>
+        <That>
+            <VidWrap>
+            <StyledVideo autoPlay loop muted>
                 <source src={movie} type="video/mp4"/>
                    
-            </video>
+            </StyledVideo>
+            </VidWrap>
+            <HeaderOverlay></HeaderOverlay>
+            <HeaderStuff>
             <Logo src={logo} alt="logo"/>
                     <Header as="h2" content="Keep your job search organized and all in one place"/>
             <OriginalBackground>
@@ -41,7 +83,8 @@ function HomeHeader() {
                     </StyledButton>
             </Container>
         </OriginalBackground>
-    </div>
+        </HeaderStuff>
+    </That>
     );
 }
 
