@@ -71,6 +71,12 @@ function HomeHeader() {
                     <Header as="h2" content="Keep your job search organized and all in one place"/>
             <OriginalBackground>
                 <Container textAlign="center">
+                    
+                        <video width="100%" height="100%" autoPlay loop muted>
+                            <source src={movie} type="video/mp4"/>
+                        </video>
+                    <Logo src={logo} alt="logo"/>
+                    <Header as="h2" content="Keep your job search organized and all in one place"/>
                         
                         <StyledButton
                             animated="fade"
@@ -80,7 +86,9 @@ function HomeHeader() {
 
                         <Button.Content visible>Get Started</Button.Content>
                         <Button.Content hidden>Install Extension</Button.Content>
+                        
                     </StyledButton>
+               
             </Container>
         </OriginalBackground>
         </HeaderStuff>
