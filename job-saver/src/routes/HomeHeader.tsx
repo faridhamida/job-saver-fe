@@ -12,7 +12,6 @@ justify-content:center;
 align-content:center;
 align-items:center;
 color:#fff;
-
 `;
 
 const VidWrap = Styled.div`
@@ -71,13 +70,7 @@ function HomeHeader() {
                     <Header as="h2" content="Keep your job search organized and all in one place"/>
             <OriginalBackground>
                 <Container textAlign="center">
-                    
-                        <video width="100%" height="100%" autoPlay loop muted>
-                            <source src={movie} type="video/mp4"/>
-                        </video>
-                    <Logo src={logo} alt="logo"/>
-                    <Header as="h2" content="Keep your job search organized and all in one place"/>
-                        
+                
                         <StyledButton
                             animated="fade"
                             size="huge"
