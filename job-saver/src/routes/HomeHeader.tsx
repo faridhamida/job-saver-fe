@@ -55,6 +55,7 @@ top:50%;
 height:100%;
 transform:"translate(-50%, -50%)";
 `;
+
 function HomeHeader() {
     return (
         <That>
@@ -67,11 +68,12 @@ function HomeHeader() {
             <HeaderOverlay></HeaderOverlay>
             <HeaderStuff>
             <Logo src={logo} alt="logo"/>
-                    <Header as="h2" content="Keep your job search organized and all in one place"/>
+                    <Header style={{color:"white"}} as="h2" content="Keep your job search organized and all in one place!"/>
             
                 <Container textAlign="center">
                 
                         <StyledButton
+                            
                             animated="fade"
                             size="huge"
                             href="#"

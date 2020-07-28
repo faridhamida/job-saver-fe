@@ -1,4 +1,4 @@
-import Styled from "styled-components";
+import Styled, { withTheme } from "styled-components";
 import { Button, Grid, Header, Image, Segment, Container } from "semantic-ui-react";
 //home page initial
 
@@ -9,14 +9,13 @@ export const OriginalBackground = Styled.div`
 export const Logo = Styled.img`
   font-size: 2em;
   margin-bottom: 0;
-  padding-top: 2em;
-  width:600px;
-  height:300px;
+  padding-top: 1em;
 `;
 
 export const StyledButton = Styled(Button)({
   color: "black !important",
-  width: "40%"
+  width: "40%",
+  background:"#4abdac"
 });
 
 
@@ -28,12 +27,12 @@ export const StyledBody = Styled(Segment)({
 
 export const StyledHeader = Styled(Header)({
   fontSize: "2em",
-  paddingTop: "30px"
+  paddingTop: "30px",
 });
 
 export const StyledIcon = Styled.img`
-  width: 50px;
-  height: 37px;
+  width: 120px;
+  height: 100px;
 `;
 export const StyledParagraph = Styled.p`
   font-size: 1.33em;
