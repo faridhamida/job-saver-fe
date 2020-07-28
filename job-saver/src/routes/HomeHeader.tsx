@@ -2,7 +2,7 @@ import React from "react";
 import { OriginalBackground, Logo, StyledButton } from "../utils/styles.js";
 import { Button, Container, Header, HeaderContent } from "semantic-ui-react";
 import logo from "../images/job-saver-logo.png";
-import movie from "../images/movie2.mp4";
+import movie from "../images/movie.mp4";
 import Styled from "styled-components";
 
 const That = Styled.div`
@@ -21,7 +21,13 @@ left:0;
 width:100%;
 height:100vh;
 overflow:hidden;
-
+@media (min-width:376px){
+    object-fit:cover;
+}
+@media (max-width:375px){
+    object-fit:cover;
+    width:100%;
+}
 `;
 const HeaderOverlay = Styled.div`
 height:100vh;
@@ -42,18 +48,12 @@ padding-bottom:2rem;
 `;
 
 const StyledVideo = Styled.video`
-max-width:100%;
-@media (max-width:1000px){
-max-height:auto;
-
-}
-@media (max-width:760px){
-    height:auto;
-   
-    }
-    @media (max-width:480px){
-        height:auto;
-        }
+width:100%;
+object-fit:cover;
+left:50%;
+top:50%;
+height:100%;
+transform:"translate(-50%, -50%)";
 `;
 function HomeHeader() {
     return (
@@ -68,7 +68,7 @@ function HomeHeader() {
             <HeaderStuff>
             <Logo src={logo} alt="logo"/>
                     <Header as="h2" content="Keep your job search organized and all in one place"/>
-            <OriginalBackground>
+            
                 <Container textAlign="center">
                 
                         <StyledButton
@@ -83,7 +83,6 @@ function HomeHeader() {
                     </StyledButton>
                
             </Container>
-        </OriginalBackground>
         </HeaderStuff>
     </That>
     );
