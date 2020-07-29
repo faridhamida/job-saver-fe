@@ -16,7 +16,7 @@ function Navigation(){
                 // active={activeItem === "Save this Job"}
                 // onClick={() => handleItemClick("save_this_job")}
                 >
-                {<Image src={cornerlogo} size="tiny" spaced alt="save this job" />}
+                {<Image src={cornerlogo} size="tiny" style={{width:"40px", height:"30px"}} spaced alt="save this job" />}
             </Menu.Item>
             <Menu.Item
                 as={Link}

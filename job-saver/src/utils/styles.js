@@ -31,8 +31,8 @@ export const StyledHeader = Styled(Header)({
 });
 
 export const StyledIcon = Styled.img`
-  width: 120px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
 `;
 export const StyledParagraph = Styled.p`
   font-size: 1.33em;
