@@ -1,7 +1,7 @@
 import React from "react";
 import { StyledBody, StyledHeader, StyledIcon, StyledParagraph, StyledLove } from "../utils/styles";
 import love from "../images/love.jpg";
-import icon from "../images/logo-icon.png";
+import icon from "../images/logoicon.png";
 import { Grid } from "semantic-ui-react";
 
 function HomeBody() {

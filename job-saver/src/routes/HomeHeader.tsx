@@ -1,7 +1,7 @@
 import React from "react";
 import { OriginalBackground, Logo, StyledButton } from "../utils/styles.js";
 import { Button, Container, Header, HeaderContent } from "semantic-ui-react";
-import logo from "../images/job-saver-logo.png";
+import logo from "../images/jobsaverlogo.png";
 import movie from "../images/movie.mp4";
 import Styled from "styled-components";
 

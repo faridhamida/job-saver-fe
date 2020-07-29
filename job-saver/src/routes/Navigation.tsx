@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, Image } from "semantic-ui-react";
-import logo-icon from "../images/logo-icon.png";
+import cornerlogo from "../images/cornerlogo.png";
 
 
 function Navigation(){
@@ -16,7 +16,7 @@ function Navigation(){
                 // active={activeItem === "Save this Job"}
                 // onClick={() => handleItemClick("save_this_job")}
                 >
-                {<Image src={logo-icon} size="tiny" spaced alt="save this job" />}
+                {<Image src={cornerlogo} size="tiny" spaced alt="save this job" />}
             </Menu.Item>
             <Menu.Item
                 as={Link}
