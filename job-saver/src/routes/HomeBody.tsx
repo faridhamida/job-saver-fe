@@ -31,14 +31,14 @@ function HomeBody() {
                         </StyledHeader>
 
                         <StyledParagraph>
-                            <strong>Job-Saver</strong> is a chrome extension that allows to save jobs.
+                            <strong>Jobsaver</strong> is a Chrome extension that allows to save jobs, more organized.
 
                         </StyledParagraph>
                         <StyledHeader as="h3">
                         <StyledIcon src={icon} alt="icon"/> Make life easier 
                         </StyledHeader>
                         <StyledParagraph>
-                        is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            Job searching is already a pain as it already is, and it can be absolute nuisance to keep track of postings on various sites. Inefficient spreadsheets and constant reminders can become overwhelming, and redundant.
                         </StyledParagraph>
 
                     </Grid.Column>
@@ -83,7 +83,7 @@ function HomeBody() {
                             Get The Extension
                         </StyledH3>
                         <StyledParagraph>
-                            This extension is available for download in the chrome web store.
+                            This extension is available for download in the Chrome web store.
                             See below or click{" "}
               <a
                 data-testid="chromeLink"
@@ -108,7 +108,7 @@ function HomeBody() {
                         </StyledH3>
                         <img src={love} alt="board" style={{width:"100%"}} />
                         <StyledParagraph>
-                        is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                            Visualize what your job search actually is, in real time. 
                         </StyledParagraph>
                         <StyledButton 
                                  data-testid="login-button"
@@ -130,7 +130,7 @@ function HomeBody() {
                         </StyledH3>
                         <img src={love} alt='example' style={{width:"100%"}} />
                         <StyledParagraph>
-                        It has survived not only five centuries, but also the leap into electronic typesetting.
+                            A lack of central organization for job postings can be overwhelming to keep track of relevant jobs. Jobsaver lets you copy and save job posting information and categorize them in how interested or where you are in your job search.
                         </StyledParagraph>
                         <StyledButton 
                                  data-testid="login-button"

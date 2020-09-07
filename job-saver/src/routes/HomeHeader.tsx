@@ -2,8 +2,7 @@ import React from "react";
 import { Logo, StyledButton, That, VidWrap, HeaderOverlay, HeaderStuff, StyledVideo  } from "../utils/styles.js";
 import { Button, Container, Header, HeaderContent } from "semantic-ui-react";
 import logo from "../images/jobsaverlogo.png";
-import movie from "../images/movie.mp4";
-import Styled from "styled-components";
+const movie = require("../images/movie.mp4")
 
 
 function HomeHeader() {
@@ -11,7 +10,7 @@ function HomeHeader() {
         <That>
             <VidWrap>
             <StyledVideo autoPlay loop muted>
-                <source src={movie} type="video/mp4"/>
+                <source src={movie} type="video/mp4"/> 
                    
             </StyledVideo>
             </VidWrap>

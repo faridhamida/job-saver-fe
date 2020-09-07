@@ -85,8 +85,8 @@ export const StyledH3 = Styled(Header)({
 });
 
 export const StyledIcon = Styled.img`
-  width: 50px;
-  height: 50px;
+  width: 25px;
+  height: 25px;
 `;
 
 export const StyledParagraph = Styled.p`
@@ -120,7 +120,7 @@ export const StyledBottom = Styled(Segment)({
 
 export const StyledFooter = Styled(Segment)`
   padding: 4em 0em !important;
-  background: #4abdac !important;
+  background: #ff5757 !important;
   width:100%;
   position:relative;
   margin-top:4em !important;
