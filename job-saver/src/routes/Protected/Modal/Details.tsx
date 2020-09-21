@@ -85,7 +85,7 @@ function Details(props) {
                     <Icon
                       style={{ marginLeft: "20px", cursor: "pointer" }}
                       name="edit"
-                      color="blue"
+                      color="green"
                       onClick={() => setEditUrl(!editUrl)}
                     />
                   </label>

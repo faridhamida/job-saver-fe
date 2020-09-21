@@ -56,7 +56,7 @@ function TagDropDown(props) {
       </Form>
       {props.tags?.map(tag =>
         tag.jobPosts_id === props.jobID ? (
-          <Label key={tag.id} style={{ margin: "2px" }} color="blue">
+          <Label key={tag.id} style={{ margin: "2px" }} color="green">
             {tag.tagName}
             <Icon name="close" onClick={() => props.deleteTag(tag.id)} />
           </Label>

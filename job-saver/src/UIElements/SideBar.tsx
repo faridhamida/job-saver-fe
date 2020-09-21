@@ -56,7 +56,7 @@ export default function SideBar(props) {
             <List.Item style={{ textAlign: "center" }}>
               <Icon color={"red"} name={"globe"} />
               <List.Content>
-                <a target="_blank" href="https://careerbuilder.com">
+                <a target="_blank" style={{color:"#ff5757"}} href="https://careerbuilder.com">
                   Career Builder
                 </a>
               </List.Content>
@@ -64,7 +64,7 @@ export default function SideBar(props) {
             <List.Item style={{ textAlign: "center" }}>
               <Icon color={"red"} name={"globe"} />
               <List.Content>
-                <a target="_blank" href="https://glassdoor.com">
+                <a target="_blank" style={{color:"#ff5757"}} href="https://glassdoor.com">
                   Glassdoor
                 </a>
               </List.Content>
@@ -74,7 +74,7 @@ export default function SideBar(props) {
               <List.Content>
                 <a
                   target="_blank"
-                  href="https://careers.google.com/jobs/results/"
+                  style={{color:"#ff5757"}} href="https://careers.google.com/jobs/results/"
                 >
                   Google for Jobs
                 </a>
@@ -83,7 +83,7 @@ export default function SideBar(props) {
             <List.Item style={{ textAlign: "center" }}>
               <Icon color={"red"} name={"globe"} />
               <List.Content>
-                <a target="_blank" href="https://indeed.com">
+                <a target="_blank" style={{color:"#ff5757"}} href="https://indeed.com">
                   Indeed
                 </a>
               </List.Content>
@@ -91,7 +91,7 @@ export default function SideBar(props) {
             <List.Item style={{ textAlign: "center" }}>
               <Icon color={"red"} name={"globe"} />
               <List.Content>
-                <a target="_blank" href="https://linkedin.com">
+                <a target="_blank" style={{color:"#ff5757"}} href="https://linkedin.com">
                   LinkedIn
                 </a>
               </List.Content>
@@ -99,7 +99,7 @@ export default function SideBar(props) {
             <List.Item style={{ textAlign: "center" }}>
               <Icon color={"red"} name={"globe"} />
               <List.Content>
-                <a target="_blank" href="https://monster.com">
+                <a target="_blank" style={{color:"#ff5757"}} href="https://monster.com">
                   Monster
                 </a>
               </List.Content>
@@ -107,7 +107,7 @@ export default function SideBar(props) {
             <List.Item style={{ textAlign: "center" }}>
               <Icon color={"red"} name={"globe"} />
               <List.Content>
-                <a target="_blank" href="https://snagajob.com">
+                <a target="_blank" style={{color:"#ff5757"}} href="https://snagajob.com">
                   Snag a Job
                 </a>
               </List.Content>
@@ -115,7 +115,7 @@ export default function SideBar(props) {
             <List.Item style={{ textAlign: "center" }}>
               <Icon color={"red"} name={"globe"} />
               <List.Content>
-                <a target="_blank" href="https://simplyhired.com">
+                <a target="_blank" style={{color:"#ff5757"}} href="https://simplyhired.com">
                   Simply Hired
                 </a>
               </List.Content>
@@ -123,7 +123,7 @@ export default function SideBar(props) {
             <List.Item style={{ textAlign: "center" }}>
               <Icon color={"red"} name={"globe"} />
               <List.Content>
-                <a target="_blank" href="https://ziprecruiter.com">
+                <a target="_blank" style={{color:"#ff5757"}} href="https://ziprecruiter.com">
                   Zip Recruiter
                 </a>
               </List.Content>
@@ -136,14 +136,14 @@ export default function SideBar(props) {
             </List.Item>
             <List.Item style={{ textAlign: "center" }}>
               <Image
-                style={{ width: "15px" }}
-                src="https://a.omappapi.com/users/b7a235343fc6/images/db14e90f97e61563891076-04-Social-square-B.png"
+                style={{ width: "15px", color:"#ff5757" }}
+                 src="https://a.omappapi.com/users/b7a235343fc6/images/db14e90f97e61563891076-04-Social-square-B.png"
               />
 
               <List.Content style={{ width: "91%" }}>
                 <a
                   target="_blank"
-                  href="https://www.bankrate.com/calculators/savings/moving-cost-of-living-calculator.aspx"
+                  style={{color:"#ff5757"}} href="https://www.bankrate.com/calculators/savings/moving-cost-of-living-calculator.aspx"
                 >
                   Bankrate
                 </a>

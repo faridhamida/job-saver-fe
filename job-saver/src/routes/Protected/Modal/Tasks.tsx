@@ -46,7 +46,7 @@ function Tasks(props) {
         </Form.Group>
 
         <Form.Button
-          style={{ background: "#08A6C9", color: "white" }}
+          style={{ background: "#28DF99", color: "white" }}
           onClick={() => handleSubmit()}
         >
           Submit

@@ -37,9 +37,7 @@ const LoginForm = () => {
         showPasswordToggleOnSignInPage: true
       },
       idps: [
-        { type: "google", id: process.env.REACT_APP_GOOGLE_IPD_ID },
-        { type: "linkedin", id: process.env.REACT_APP_LINKEDIN_IPD_ID },
-        { type: "facebook", id: process.env.REACT_APP_FACEBOOK_IPD_ID }
+        { type: "google", id: process.env.REACT_APP_GOOGLE_IPD_ID }
       ],
       colors: {
         brand: "#FF5757"

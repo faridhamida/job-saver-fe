@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.01846901.chunk.css",
+    "main.js": "/static/js/main.5cd58b7a.chunk.js",
+    "main.js.map": "/static/js/main.5cd58b7a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0fa04395.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0fa04395.js.map",
+    "static/css/2.3aa1796c.chunk.css": "/static/css/2.3aa1796c.chunk.css",
+    "static/js/2.79c7f0d3.chunk.js": "/static/js/2.79c7f0d3.chunk.js",
+    "static/js/2.79c7f0d3.chunk.js.map": "/static/js/2.79c7f0d3.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.0d16e33c2dbef40ba27bbe01ca8f505a.js": "/precache-manifest.0d16e33c2dbef40ba27bbe01ca8f505a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.3aa1796c.chunk.css.map": "/static/css/2.3aa1796c.chunk.css.map",
+    "static/css/main.01846901.chunk.css.map": "/static/css/main.01846901.chunk.css.map",
+    "static/js/2.79c7f0d3.chunk.js.LICENSE.txt": "/static/js/2.79c7f0d3.chunk.js.LICENSE.txt",
+    "static/media/semantic.less": "/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/okta-sign-in.min.css": "/static/media/yubikeyDemo.f10c9db1.png",
+    "static/media/love.jpg": "/static/media/love.4a994ff5.jpg",
+    "static/media/movie.mp4": "/static/media/movie.7f5c3466.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0fa04395.js",
+    "static/css/2.3aa1796c.chunk.css",
+    "static/js/2.79c7f0d3.chunk.js",
+    "static/css/main.01846901.chunk.css",
+    "static/js/main.5cd58b7a.chunk.js"
+  ]
+}

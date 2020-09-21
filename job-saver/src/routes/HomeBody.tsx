@@ -14,7 +14,9 @@ import {
 } from "../utils/styles";
 import love from "../images/love.jpg";
 import icon from "../images/logoicon.png";
+import organize from "../images/organize.png";
 import { Grid, Container, Button} from "semantic-ui-react";
+const kanban = require("../images/kanbanboardvid1.gif");
 
 function HomeBody() {
 
@@ -106,7 +108,7 @@ function HomeBody() {
                             <StyledIcon src={icon} alt="icon" />
                             Kanban Board
                         </StyledH3>
-                        <img src={love} alt="board" style={{width:"100%"}} />
+                        <img src={kanban} alt="board" style={{width:"100%"}} />
                         <StyledParagraph>
                             Visualize what your job search actually is, in real time. 
                         </StyledParagraph>
@@ -128,7 +130,7 @@ function HomeBody() {
                             <StyledIcon src={icon} alt="icon" />
                             Get Organized
                         </StyledH3>
-                        <img src={love} alt='example' style={{width:"100%"}} />
+                        <img src={organize} alt='example' style={{width:"100%"}} />
                         <StyledParagraph>
                             A lack of central organization for job postings can be overwhelming to keep track of relevant jobs. Jobsaver lets you copy and save job posting information and categorize them in how interested or where you are in your job search.
                         </StyledParagraph>
