@@ -17,7 +17,7 @@ function HomeHeader() {
             <HeaderOverlay></HeaderOverlay>
             <HeaderStuff>
             <Logo src={logo} alt="logo"/>
-                    <Header style={{color:"white"}} as="h2" content="Keep your job search organized and all in one place!"/>
+                    <Header style={{color:"white"}} as="h2" content="Keep your job search organized, all in one place!"/>
             
                 <Container textAlign="center">
                 

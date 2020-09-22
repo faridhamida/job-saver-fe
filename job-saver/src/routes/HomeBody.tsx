@@ -33,14 +33,14 @@ function HomeBody() {
                         </StyledHeader>
 
                         <StyledParagraph>
-                            <strong>Jobsaver</strong> is a Chrome extension that allows to save jobs, more organized.
+                            <strong>Jobsaver</strong> is a Chrome extension that allows you to save jobs, and make it more organized.
 
                         </StyledParagraph>
                         <StyledHeader as="h3">
                         <StyledIcon src={icon} alt="icon"/> Make life easier 
                         </StyledHeader>
                         <StyledParagraph>
-                            Job searching is already a pain as it already is, and it can be absolute nuisance to keep track of postings on various sites. Inefficient spreadsheets and constant reminders can become overwhelming, and redundant.
+                            Job searching is a pain as it already is, and it can be an absolute nuisance to keep track of postings on various sites. Inefficient spreadsheets and constant reminders can become overwhelming, and redundant.
                         </StyledParagraph>
 
                     </Grid.Column>
@@ -82,7 +82,7 @@ function HomeBody() {
                     <StyledGridCol>
                         <StyledH3 as="h3">
                             <StyledIcon src={icon} alt="icon" /> 
-                            Get The Extension
+                            Get The Extension Now!
                         </StyledH3>
                         <StyledParagraph>
                             This extension is available for download in the Chrome web store.
@@ -132,7 +132,7 @@ function HomeBody() {
                         </StyledH3>
                         <img src={organize} alt='example' style={{width:"100%"}} />
                         <StyledParagraph>
-                            A lack of central organization for job postings can be overwhelming to keep track of relevant jobs. Jobsaver lets you copy and save job posting information and categorize them in how interested or where you are in your job search.
+                            A lack of central organization for job postings can be overwhelming to keep track of relevant jobs. Jobsaver lets you copy and save job posting(s) information and categorizes them in how interested or where you are in your job search.
                         </StyledParagraph>
                         <StyledButton 
                                  data-testid="login-button"
