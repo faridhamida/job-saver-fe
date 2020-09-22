@@ -37,7 +37,6 @@
   },
   "permissions": [
     "contextMenus",
-    "tabs",
     "storage",
     "activeTab",
     "https://job-saver-be.herokuapp.com/jobPosts/addJob",

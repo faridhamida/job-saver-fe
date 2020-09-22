@@ -114,7 +114,7 @@ chrome.browserAction.onClicked.addListener(function () {
 
 function login() {
   chrome.storage.local.set({ login: "true" }, () => {
-    chrome.tabs.create({ url: 'http://getmeajob.me/dashboard' }, () => {
+    chrome.tabs.create({ url: 'https://www.getmeajob.me/dashboard' }, () => {
       chrome.tabs.onUpdated.addListener(() => {
         chrome.tabs.query({ currentWindow: true, active: true }, (tabs) => {
           const tabId = tabs[0].id;
@@ -157,4 +157,3 @@ chrome.tabs.onActivated.addListener(function () {
     })
   })
 })
-

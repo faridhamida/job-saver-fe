@@ -29,7 +29,7 @@ popup.setAttribute('id', 'popup')
 popup.classList.add('formSuccess')
 popup.setAttribute('style', 'display: none !important')
 loginSuccess.setAttribute('id', 'loginSuccess')
-loginSuccess.className = 'loginSuccess'
+loginSuccess.className = ('loginSuccess')
 loginSuccess.setAttribute('style', 'display: none !important')
 container.classList.add('form-popup')
 container.setAttribute('id', 'myForm')
@@ -84,11 +84,10 @@ jobDescription.textContent = 'Description'
 popup.innerHTML = `
       <p style="color: #ff5757; margin: 0px; font-size: 16px; font-family: lato; font-weight: 400; letter-spacing: 0px; line-height: 23px;">Your job was saved to<p>
       <p style="color: #ff5757; margin: 10px 0px 30px; font-size: 35px; font-family: lato; font-weight: 600; letter-spacing: 0px; line-height: 42px; text-transform: capitalize;">Job-Saver</p>
-      <a href="http://getmeajob/dashboard" target="_blank" style="box-sizing: border-box; line-height: 15px; text-decoration: none; display: inline-block; padding: 10px 20px; color: white; font-weight: 600; border-radius: 4px; transition: all 0.4s ease-out 0s; background-color: #ff5757; text-align: center; font-size: 14px; border: 1px solid rgba(0, 0, 0, 0); position: relative; box-shadow: rgba(25, 4, 69, 0.05) 0px 4px 10px;">View Dashboard</a>
+      <a href="https://www.getmeajob.me/dashboard" target="_blank" style="box-sizing: border-box; line-height: 15px; text-decoration: none; display: inline-block; padding: 10px 20px; color: white; font-weight: 600; border-radius: 4px; transition: all 0.4s ease-out 0s; background-color: #ff5757; text-align: center; font-size: 14px; border: 1px solid rgba(0, 0, 0, 0); position: relative; box-shadow: rgba(25, 4, 69, 0.05) 0px 4px 10px;">View Dashboard</a>
       `
 loginSuccess.innerHTML = `
 <div style="display: flex; flex-direction: column; height: 450px; padding: 0px 40px; text-align: center; align-items: center; justify-content: center;">
-  <img src={"../images/icon48.png"} style="width: 85px; height: 35px; border: none; margin-bottom: 40px;">
   <p style="color: #ff5757; margin: 0px 0px 7px; font-size: 22px; font-family: lato; font-weight: 600; letter-spacing: 0px; line-height: 30px; text-transform: capitalize;">You’re All Set!</p>
   <p style="margin: 15px 0px 30px; font-size: 16px; font-family: lato; font-weight: 400; letter-spacing: 0px; line-height: 23px;">The extension is ready</p>
   <div>
@@ -461,7 +460,7 @@ window.addEventListener("load", () => {
       openPopup.setAttribute('style', 'display: none !important')
       return openPopup
     } else {
-      if (window.location.origin === 'http://getmeajob.me/dashboard') {
+      if (window.location.origin === 'https://www.getmeajob.me') {
         const openPopup = shadowRoot.querySelector('.open-button')
         openPopup.setAttribute('style', 'display: none !important')
         return openPopup
@@ -625,7 +624,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   }
 
   if (request.type === 'tabActivated') {
-    if (window.location.origin === 'http://getmeajob.me/dashboard') {
+    if (window.location.origin === 'https://www.getmeajob.me') {
       const tack =
         shadowRoot.querySelector('.open-button')
       tack.setAttribute('style', 'display: none !important')
@@ -654,7 +653,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
       } else {
         if (
           window.location.href ===
-          'http://getmeajob.me/dashboard'
+          'https://www.getmeajob.me/dashboard'
         ) {
           return setToken();
         } else {
