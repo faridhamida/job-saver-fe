@@ -33,7 +33,7 @@ function HomeBody() {
                         </StyledHeader>
 
                         <StyledParagraph>
-                            <strong>Jobsaver</strong> is a Chrome extension that allows you to save jobs, and make it more organized.
+                            <strong>Jobsaver</strong> is a Chrome extension that allows you to save jobs, and keeps it nice and tidy.
 
                         </StyledParagraph>
                         <StyledHeader as="h3">
