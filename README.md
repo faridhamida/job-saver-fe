@@ -2,7 +2,7 @@
 
 Link to website: [Website](https://getmeajob.me)
 
-Link to backend: [Backend](https://job-saver-be.herokuapp.com)
+Link to backend: [Backend](https://github.com/faridhamida/job-saver-be)
   
 Hey guys and gals! Keep your job search organized, all in one place!
 
