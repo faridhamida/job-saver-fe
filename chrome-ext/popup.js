@@ -350,6 +350,13 @@ formStyle.textContent = `
 const shadowRoot = shadow.attachShadow({ mode: 'open' });
 
 function togglePopup() {
+  const token = localStorage.getItem("token")
+  
+  if(token) { chrome.storage.local.set({'token': token}, function(){
+    console.log("local is now", token)
+  })}
+  
+  
   const element = shadowRoot.querySelector("#myForm");
   const success = shadowRoot.querySelector('#popup')
   if (element.style.display !== "block") {
@@ -496,7 +503,7 @@ window.addEventListener("load", () => {
         return chrome.runtime.sendMessage({ type: 'getToken' });
       }
 
-      const accessToken = localStorage.getItem('token');
+      const accessToken = result.token;
       console.log("access token here",accessToken);
 
       const data = {

@@ -112,7 +112,10 @@ chrome.browserAction.onClicked.addListener(function () {
   })
 });
 
-function login() {
+ function login() {
+  chrome.tabs.query({url: "https://www.getmeajob.me/dashboard"}, function(res){
+    console.log("herer",res)
+  })
   chrome.storage.local.set({ login: "true" }, () => {
     chrome.tabs.create({ url: 'https://www.getmeajob.me/dashboard' }, () => {
       chrome.tabs.onUpdated.addListener(() => {
