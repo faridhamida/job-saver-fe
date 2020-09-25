@@ -34,6 +34,7 @@ const Dashboard = props => {
   const setTokenForExtension = () => {
     const token = store.get("okta-token-storage").accessToken.accessToken;
     localStorage.setItem("token", token);
+
   };
 
   const handleJobs = () => {
