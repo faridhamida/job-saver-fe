@@ -25,9 +25,8 @@ function HomeHeader() {
                             
                             animated="fade"
                             size="huge"
-                            href="#"
+                            href="https://chrome.google.com/webstore/detail/job-saver/hklmnkhdlflnbnadkalnobiollacjcaa"
                         >
-
                         <Button.Content visible>Get Started</Button.Content>
                         <Button.Content hidden>Install Extension</Button.Content>
                         

@@ -89,7 +89,7 @@ function HomeBody() {
                             See below or click{" "}
               <a
                 data-testid="chromeLink"
-                href=""
+                href="https://chrome.google.com/webstore/detail/job-saver/hklmnkhdlflnbnadkalnobiollacjcaa"
               >
                 here
               </a>{" "}
@@ -116,10 +116,10 @@ function HomeBody() {
                                  data-testid="login-button"
                                  animated="fade"
                                  size="huge"
-                                 href={`${window.location.origin}/login`}
+                                 href="https://chrome.google.com/webstore/detail/job-saver/hklmnkhdlflnbnadkalnobiollacjcaa"
                                  >
                                      <Button.Content visible>Get Started</Button.Content>
-                                     <Button.Content hidden>Sign-Up</Button.Content>
+                                     <Button.Content hidden>Install</Button.Content>
                         </StyledButton>
 
                         <StyledDivider horizontal>
@@ -138,7 +138,7 @@ function HomeBody() {
                                  data-testid="login-button"
                                  animated="fade"
                                  size="huge"
-                                 href={`${window.location.origin}/login`}
+                                 href="https://chrome.google.com/webstore/detail/job-saver/hklmnkhdlflnbnadkalnobiollacjcaa"
                                  >
                                      <Button.Content visible>Chrome Extension</Button.Content>
                                      <Button.Content hidden>Install</Button.Content>
