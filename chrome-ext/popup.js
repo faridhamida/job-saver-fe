@@ -494,7 +494,7 @@ window.addEventListener("load", () => {
     event.preventDefault()
     addJob.innerHTML = 'Loading...'
 
-    //TODO
+
     chrome.storage.local.get('token', function (result) {
 
       console.log('result', result);

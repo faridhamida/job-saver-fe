@@ -1,7 +1,7 @@
 {
   "name": "Job-Saver",
   "manifest_version": 2,
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "A Chrome extension that allows users to save job posts!",
   "content_scripts": [
     {
@@ -47,7 +47,7 @@
   "web_accessible_resources": ["*.html", "*.png", "*.js", "*.css"],
   "externally_connectable": {
     "ids": ["*"],
-    "matches": ["https://www.getmeajob.me/*", "http://getmeajob.me/*"]
+    "matches": ["https://www.getmeajob.me/*", "https://getmeajob.me/*", "http://www.getmeajob.me/*", "http://getmeajob.me/*"]
   }
 }
 
