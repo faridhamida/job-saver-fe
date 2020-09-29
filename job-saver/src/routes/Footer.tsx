@@ -1,7 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Styled from "styled-components";
 import { connect } from "react-redux";
-import { Link } from "react-router-dom";
 import { Segment, Container, Grid, Header, List } from "semantic-ui-react";
 const StyledFooter = Styled(Segment)`
   padding: 4em 0em !important;

@@ -51,23 +51,23 @@ const Dashboard = props => {
     props.jobs &&
       setColumns({
         ...columns,
-        ["column-1"]: {
+        "column-1": {
           ...columns["column-1"],
           items: filterJobs("column-1")
         },
-        ["column-2"]: {
+        "column-2": {
           ...columns["column-2"],
           items: filterJobs("column-2")
         },
-        ["column-3"]: {
+        "column-3": {
           ...columns["column-3"],
           items: filterJobs("column-3")
         },
-        ["column-4"]: {
+        "column-4": {
           ...columns["column-4"],
           items: filterJobs("column-4")
         },
-        ["column-5"]: {
+        "column-5": {
           ...columns["column-5"],
           items: filterJobs("column-5")
         }

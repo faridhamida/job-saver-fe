@@ -1,6 +1,6 @@
 import api from "../../utils/api";
 import store from "store";
-import { applyMiddleware } from "redux";
+
 export const GET_JOBS_ERROR = "GET_JOBS_ERROR";
 export const GET_JOBS_LOADING = "GET_JOBS_LOADING";
 export const GET_JOBS_SUCCESS = "GET_JOBS_SUCCESS";

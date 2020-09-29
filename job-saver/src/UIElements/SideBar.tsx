@@ -1,11 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import {
-  Header,
   Image,
   Icon,
-  Button,
-  Menu,
-  Ref,
   Segment,
   Sidebar,
   List
@@ -56,7 +52,7 @@ export default function SideBar(props) {
             <List.Item style={{ textAlign: "center" }}>
               <Icon color={"red"} name={"globe"} />
               <List.Content>
-                <a target="_blank" style={{color:"#ff5757"}} href="https://careerbuilder.com">
+                <a target="_blank" rel="noopener noreferrer" style={{color:"#ff5757"}} href="https://careerbuilder.com">
                   Career Builder
                 </a>
               </List.Content>
@@ -64,7 +60,7 @@ export default function SideBar(props) {
             <List.Item style={{ textAlign: "center" }}>
               <Icon color={"red"} name={"globe"} />
               <List.Content>
-                <a target="_blank" style={{color:"#ff5757"}} href="https://glassdoor.com">
+                <a target="_blank" rel="noopener noreferrer" style={{color:"#ff5757"}} href="https://glassdoor.com">
                   Glassdoor
                 </a>
               </List.Content>
@@ -72,9 +68,7 @@ export default function SideBar(props) {
             <List.Item style={{ textAlign: "center" }}>
               <Icon color={"red"} name={"globe"} />
               <List.Content>
-                <a
-                  target="_blank"
-                  style={{color:"#ff5757"}} href="https://careers.google.com/jobs/results/"
+                <a target="_blank" rel="noopener noreferrer" style={{color:"#ff5757"}} href="https://careers.google.com/jobs/results/"
                 >
                   Google for Jobs
                 </a>
@@ -83,7 +77,7 @@ export default function SideBar(props) {
             <List.Item style={{ textAlign: "center" }}>
               <Icon color={"red"} name={"globe"} />
               <List.Content>
-                <a target="_blank" style={{color:"#ff5757"}} href="https://indeed.com">
+                <a target="_blank" rel="noopener noreferrer" style={{color:"#ff5757"}} href="https://indeed.com">
                   Indeed
                 </a>
               </List.Content>
@@ -91,7 +85,7 @@ export default function SideBar(props) {
             <List.Item style={{ textAlign: "center" }}>
               <Icon color={"red"} name={"globe"} />
               <List.Content>
-                <a target="_blank" style={{color:"#ff5757"}} href="https://linkedin.com">
+                <a target="_blank" rel="noopener noreferrer" style={{color:"#ff5757"}} href="https://linkedin.com">
                   LinkedIn
                 </a>
               </List.Content>
@@ -99,7 +93,7 @@ export default function SideBar(props) {
             <List.Item style={{ textAlign: "center" }}>
               <Icon color={"red"} name={"globe"} />
               <List.Content>
-                <a target="_blank" style={{color:"#ff5757"}} href="https://monster.com">
+                <a target="_blank" rel="noopener noreferrer" style={{color:"#ff5757"}} href="https://monster.com">
                   Monster
                 </a>
               </List.Content>
@@ -107,7 +101,7 @@ export default function SideBar(props) {
             <List.Item style={{ textAlign: "center" }}>
               <Icon color={"red"} name={"globe"} />
               <List.Content>
-                <a target="_blank" style={{color:"#ff5757"}} href="https://snagajob.com">
+                <a target="_blank" rel="noopener noreferrer" style={{color:"#ff5757"}} href="https://snagajob.com">
                   Snag a Job
                 </a>
               </List.Content>
@@ -115,7 +109,7 @@ export default function SideBar(props) {
             <List.Item style={{ textAlign: "center" }}>
               <Icon color={"red"} name={"globe"} />
               <List.Content>
-                <a target="_blank" style={{color:"#ff5757"}} href="https://simplyhired.com">
+                <a target="_blank" rel="noopener noreferrer" style={{color:"#ff5757"}} href="https://simplyhired.com">
                   Simply Hired
                 </a>
               </List.Content>
@@ -123,7 +117,7 @@ export default function SideBar(props) {
             <List.Item style={{ textAlign: "center" }}>
               <Icon color={"red"} name={"globe"} />
               <List.Content>
-                <a target="_blank" style={{color:"#ff5757"}} href="https://ziprecruiter.com">
+                <a target="_blank" rel="noopener noreferrer" style={{color:"#ff5757"}} href="https://ziprecruiter.com">
                   Zip Recruiter
                 </a>
               </List.Content>
@@ -141,9 +135,7 @@ export default function SideBar(props) {
               />
 
               <List.Content style={{ width: "91%" }}>
-                <a
-                  target="_blank"
-                  style={{color:"#ff5757"}} href="https://www.bankrate.com/calculators/savings/moving-cost-of-living-calculator.aspx"
+                <a target="_blank" rel="noopener noreferrer" style={{color:"#ff5757"}} href="https://www.bankrate.com/calculators/savings/moving-cost-of-living-calculator.aspx"
                 >
                   Bankrate
                 </a>

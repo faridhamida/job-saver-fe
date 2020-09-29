@@ -1,5 +1,5 @@
-import Styled, { withTheme } from "styled-components";
-import { Button, Grid, Header, Image, Segment, Container, Divider} from "semantic-ui-react";
+import Styled from "styled-components";
+import { Button, Grid, Header, Image, Segment, Divider} from "semantic-ui-react";
 //home page header
 
 export const That = Styled.div`

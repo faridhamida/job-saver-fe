@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Form, Grid, Button, Icon, TextArea, Label } from "semantic-ui-react";
+import { Form, Grid, Icon, TextArea } from "semantic-ui-react";
 import { connect } from "react-redux";
 import { updateJob, updateCurrentJob } from "../../../redux/actions/index";
 

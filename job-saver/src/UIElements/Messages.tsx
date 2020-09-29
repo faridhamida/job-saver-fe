@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Message } from "semantic-ui-react";
 const Messages = props => {
   const [visible, setVisible] = useState(props.visible ? props.visible : false);

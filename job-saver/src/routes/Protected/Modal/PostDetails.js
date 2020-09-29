@@ -4,7 +4,6 @@ import {
   Button,
   Image,
   Header,
-  Confirm,
   Icon,
   Grid,
   Responsive,
@@ -48,14 +47,7 @@ function PostDetails(props) {
       applicationDeadline: date
     });
   };
-  // const [confirmClose, setConfirmClose] = useState(false);
-  // function closeModal() {
-  //   if (!props.updateDisabled) {
-  //     setConfirmClose(true);
-  //   } else {
-  //     props.setOpen(false);
-  //   }
-  // }
+
 
   const [view, setView] = useState();
   return (
@@ -111,18 +103,28 @@ function PostDetails(props) {
                         />
                         <Header as="h3" content={editedJob.jobTitle} />
                       </div>
-                      {/* <Rating
+                      <div></div>
+                      <Header 
+                      as="h4" 
+                      content="Rating: " 
+                      />
+                      <Rating
                         style={{ margin: ".5em 0 2em" }}
                         icon="star"
                         onRate={handleChanges}
                         rating={props.currentJob.rating || 3}
                         maxRating={5}
                         clearable
-                      /> */}
+                      />
+                      
                       <Header
                         as="h4"
-                        content={`Location: ${props.currentJob.location}`}
+                        content={"Location: "}
                       />
+                      <Header
+                      as="h4"
+                      content= {`${props.currentJob.location}`} />
+
                       <TagDropdown jobID={props.jobId} />
                     </Grid.Column>
                     <div

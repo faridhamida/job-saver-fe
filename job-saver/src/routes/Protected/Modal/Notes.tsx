@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { TextArea, Header, Button } from "semantic-ui-react";
+import React from "react";
+import { TextArea, Header } from "semantic-ui-react";
 import { connect } from "react-redux";
 import { updateCurrentJob } from "../../../redux/actions/index";
 

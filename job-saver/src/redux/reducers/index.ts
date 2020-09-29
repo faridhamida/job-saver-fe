@@ -22,13 +22,11 @@ import {
     DELETE_TASKS_ERROR,
     DELETE_TASKS_LOADING,
     DELETE_TASKS_SUCCESS,
-    TOGGLE_TASK,
     CLEAR_MESSAGES,
     TAGS,
     TAG_FILTER
   } from "../actions/index";
   import Tags from "../../UIElements/Tags";
-  
   const initialState = {
     loading: false,
     error: "",
@@ -244,44 +242,6 @@ import {
           error: action.payload
         };
   
-      // case TOGGLE_TASK: {
-      //   return {
-      //     ...state,
-      //     tasks: state.tasks.map((task) =>
-      //       task.id === action.payload
-      //         ? { ...task, completed: !task.completed }
-      //         : task
-      //     ),
-      //   };
-      // }
-      case DELETE_TASKS_LOADING:
-        return {
-          ...state,
-          loading: true,
-          success: {
-            state: false,
-            type: "",
-            message: ""
-          }
-        };
-      case DELETE_TASKS_SUCCESS:
-        return {
-          ...state,
-          tasks: action.payload,
-          loading: false,
-          success: {
-            state: true,
-            type: "Deleted",
-            message: "Task Successfully Deleted"
-          }
-        };
-      case DELETE_TASKS_ERROR:
-        return {
-          ...state,
-          loading: false,
-          error: action.payload
-        };
-  
       case CLEAR_MESSAGES:
         return {
           ...state,
@@ -291,6 +251,7 @@ import {
             message: ""
           }
         };
+
       case TAGS:
         let jobIds = [];
         state.jobs.forEach(job => {

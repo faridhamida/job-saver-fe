@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { List, Header, Icon, Form, Button, Dropdown } from "semantic-ui-react";
+import { List, Header, Icon, Form } from "semantic-ui-react";
 import { connect } from "react-redux";
 import { addTask, getTasks, deleteTask } from "../../../redux/actions/index";
 
